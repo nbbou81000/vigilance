@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T22:31:44.117Z",
+  "generated_at": "2026-07-14T23:55:34.775Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -149,10 +149,18 @@
       "code": "DE",
       "name_fr": "Allemagne",
       "ok": true,
-      "max_level": "yellow",
-      "max_level_label": "Jaune",
-      "active_zone_count": 69,
+      "max_level": "orange",
+      "max_level_label": "Orange",
+      "active_zone_count": 63,
       "hazards": [
+        {
+          "type": "heavy thunderstorms with gale- or storm-force gusts and very heavy rain",
+          "label_fr": "heavy thunderstorms with gale- or storm-force gusts and very heavy rain",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 4,
+          "total_zone_count": 4
+        },
         {
           "type": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
           "label_fr": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
@@ -211,6 +219,14 @@
           "level_label": "Orange",
           "zone_count": 59,
           "total_zone_count": 59
+        },
+        {
+          "type": "heavy thunderstorm",
+          "label_fr": "heavy thunderstorm",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 1,
+          "total_zone_count": 1
         }
       ]
     },
@@ -227,8 +243,8 @@
           "label_fr": "thunderstormwarning",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 1,
-          "total_zone_count": 57
+          "zone_count": 3,
+          "total_zone_count": 58
         },
         {
           "type": "heatwarning",
@@ -288,19 +304,10 @@
       "code": "LU",
       "name_fr": "Luxembourg",
       "ok": true,
-      "max_level": "yellow",
-      "max_level_label": "Jaune",
-      "active_zone_count": 2,
-      "hazards": [
-        {
-          "type": "no text",
-          "label_fr": "no text",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 2,
-          "total_zone_count": 2
-        }
-      ]
+      "max_level": "green",
+      "max_level_label": "Vert",
+      "active_zone_count": 0,
+      "hazards": []
     }
   }
 }
