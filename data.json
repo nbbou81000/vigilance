@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T15:26:02.373Z",
+  "generated_at": "2026-07-14T16:46:53.808Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -151,31 +151,31 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 164,
+      "active_zone_count": 172,
       "hazards": [
         {
           "type": "thunderstorms with gale- or storm-force gusts, very heavy rain and hail",
           "label_fr": "thunderstorms with gale- or storm-force gusts, very heavy rain and hail",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 8,
-          "total_zone_count": 8
+          "zone_count": 33,
+          "total_zone_count": 33
         },
         {
           "type": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
           "label_fr": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 63,
-          "total_zone_count": 63
+          "zone_count": 31,
+          "total_zone_count": 31
         },
         {
-          "type": "heavy thunderstorms with gale- or storm-force gusts and heavy rain",
-          "label_fr": "heavy thunderstorms with gale- or storm-force gusts and heavy rain",
+          "type": "heavy thunderstorms with heavy rain",
+          "label_fr": "heavy thunderstorms with heavy rain",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 3,
-          "total_zone_count": 3
+          "zone_count": 1,
+          "total_zone_count": 1
         },
         {
           "type": "strong heat",
@@ -209,8 +209,8 @@
           "label_fr": "violent thunderstorm",
           "level": "red",
           "level_label": "Rouge",
-          "zone_count": 4,
-          "total_zone_count": 4
+          "zone_count": 1,
+          "total_zone_count": 1
         },
         {
           "type": "widespread heavy thunderstorms possible",
@@ -233,8 +233,8 @@
           "label_fr": "heavy thunderstorm",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 10,
-          "total_zone_count": 10
+          "zone_count": 5,
+          "total_zone_count": 5
         }
       ]
     },
@@ -244,7 +244,7 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 115,
+      "active_zone_count": 114,
       "hazards": [
         {
           "type": "stormwarning",
@@ -260,7 +260,7 @@
           "level": "orange",
           "level_label": "Orange",
           "zone_count": 8,
-          "total_zone_count": 82
+          "total_zone_count": 79
         },
         {
           "type": "heatwarning",
