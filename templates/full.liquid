@@ -1,0 +1,113 @@
+{% comment %}
+  Plugin privé "Vigilance Météo Europe" — layout full
+  Source : flux publics MeteoAlarm (EUMETNET), agrégés par scripts/fetch-vigilance.mjs
+  Sélection du pays via le champ réglage "country" (voir custom-fields.yml).
+  Les niveaux de sévérité sont codés en trame (densité de hachures), pas en
+  couleur, pour rester lisibles sur l'écran 1-bit :
+    Vert = aucune trame · Jaune = pointillé léger · Orange = hachure moyenne · Rouge = remplissage plein
+{% endcomment %}
+
+{% assign raw_country = trmnl.plugin_settings.custom_fields_values.country %}
+{% assign country_code = "FR" %}
+{% if raw_country == "france" %}{% assign country_code = "FR" %}
+{% elsif raw_country == "belgique" %}{% assign country_code = "BE" %}
+{% elsif raw_country == "espagne" %}{% assign country_code = "ES" %}
+{% elsif raw_country == "italie" %}{% assign country_code = "IT" %}
+{% elsif raw_country == "allemagne" %}{% assign country_code = "DE" %}
+{% elsif raw_country == "portugal" %}{% assign country_code = "PT" %}
+{% elsif raw_country == "suisse" %}{% assign country_code = "CH" %}
+{% elsif raw_country == "autriche" %}{% assign country_code = "AT" %}
+{% elsif raw_country == "pays-bas" %}{% assign country_code = "NL" %}
+{% elsif raw_country == "royaume-uni" %}{% assign country_code = "GB" %}
+{% elsif raw_country == "irlande" %}{% assign country_code = "IE" %}
+{% elsif raw_country == "luxembourg" %}{% assign country_code = "LU" %}
+{% endif %}
+
+{% assign c = countries[country_code] %}
+
+<div class="layout layout--col gap--medium">
+
+  <div class="grid">
+    <div class="item col--span-8">
+      <div class="meta"></div>
+      <div class="content">
+        <span class="label">Vigilance météo</span>
+        <span class="value value--xlarge">{{ c.name_fr }}</span>
+      </div>
+    </div>
+    <div class="item col--span-4">
+      <div class="meta"></div>
+      <div class="content">
+        <span class="label">Niveau</span>
+        <span class="value value--large">{{ c.max_level_label }}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  {% if c.hazards.size == 0 %}
+
+    <div class="grid">
+      <div class="item">
+        <div class="meta"></div>
+        <div class="content">
+          <span class="value value--medium">Aucune vigilance active</span>
+          <span class="label">Situation normale sur l'ensemble du pays</span>
+        </div>
+      </div>
+    </div>
+
+  {% else %}
+
+    <div class="layout layout--col gap--small">
+      {% for h in c.hazards %}
+        <div class="grid">
+          <div class="item col--span-1">
+            <svg width="26" height="26" viewBox="0 0 26 26">
+              <defs>
+                <pattern id="swatch-{{ forloop.index }}" patternUnits="userSpaceOnUse" width="4" height="4" patternTransform="rotate(45)">
+                  {% if h.level == 'yellow' %}
+                    <line x1="0" y1="0" x2="0" y2="4" stroke="#000" stroke-width="0.5"></line>
+                  {% elsif h.level == 'orange' %}
+                    <line x1="0" y1="0" x2="0" y2="4" stroke="#000" stroke-width="1.4"></line>
+                  {% elsif h.level == 'red' %}
+                    <rect x="0" y="0" width="4" height="4" fill="#000"></rect>
+                  {% endif %}
+                </pattern>
+              </defs>
+              <rect x="1" y="1" width="24" height="24" fill="url(#swatch-{{ forloop.index }})" stroke="#000" stroke-width="1.5"></rect>
+            </svg>
+          </div>
+          <div class="item col--span-7">
+            <div class="meta"></div>
+            <div class="content">
+              <span class="value value--small">{{ h.label_fr }}</span>
+              <span class="label">{{ h.level_label }} — {{ h.zone_count }} zone{% if h.zone_count > 1 %}s{% endif %}{% if h.total_zone_count > h.zone_count %} (sur {{ h.total_zone_count }} touchées){% endif %}</span>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  {% endif %}
+
+  <div class="divider"></div>
+
+  <div class="grid">
+    <div class="item">
+      <div class="meta"></div>
+      <div class="content">
+        <span class="value value--small">{{ c.active_zone_count }}</span>
+        <span class="label">Zones concernées</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="title_bar">
+  <img class="image" src="https://trmnl.com/images/plugins/trmnl--render.svg">
+  <span class="title">Vigilance Météo Europe</span>
+  <span class="instance">MAJ {{ generated_at | date: "%d/%m %H:%M" }}</span>
+</div>
