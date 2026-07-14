@@ -1,0 +1,31 @@
+name: Vigilance Météo Europe
+description: >
+  Affiche les alertes météo actives (MeteoAlarm / EUMETNET) pour le pays
+  européen de votre choix : niveau de vigilance, types d'aléas et zones
+  concernées.
+strategy: polling
+polling_verb: get
+# URL du data.json publié sur GitHub Pages (à adapter après déploiement)
+polling_url: https://<TON-USER>.github.io/vigilance/data.json
+polling_headers: ''
+refresh_interval: 30 # minutes
+custom_fields:
+  - keyname: country
+    field_type: select
+    name: Pays
+    description: Choisissez le pays à surveiller (vigilance météo MeteoAlarm).
+    options:
+      - France
+      - Belgique
+      - Espagne
+      - Italie
+      - Allemagne
+      - Portugal
+      - Suisse
+      - Autriche
+      - Pays-Bas
+      - Royaume-Uni
+      - Irlande
+      - Luxembourg
+    default: france
+    optional: true

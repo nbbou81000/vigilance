@@ -1,0 +1,25 @@
+# À coller dans les Custom Fields du plugin.
+# Le libellé choisi est exposé côté Liquid (une fois "paramétrisé" par TRMNL :
+# minuscules, accents retirés, espaces -> tirets) via
+# trmnl.plugin_settings.custom_fields_values.country
+# Le template fait ensuite la correspondance libellé -> code ISO pays.
+
+- keyname: country
+  field_type: select
+  name: Pays
+  description: Choisissez le pays à surveiller (vigilance météo MeteoAlarm).
+  options:
+    - France
+    - Belgique
+    - Espagne
+    - Italie
+    - Allemagne
+    - Portugal
+    - Suisse
+    - Autriche
+    - Pays-Bas
+    - Royaume-Uni
+    - Irlande
+    - Luxembourg
+  default: france
+  optional: true
