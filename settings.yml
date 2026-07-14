@@ -6,7 +6,7 @@ description: >
 strategy: polling
 polling_verb: get
 # URL du data.json publié sur GitHub Pages (à adapter après déploiement)
-polling_url: https://<TON-USER>.github.io/vigilance/data.json
+polling_url: https://nbbou81000.github.io/vigilance/data.json
 polling_headers: ''
 refresh_interval: 30 # minutes
 custom_fields:
