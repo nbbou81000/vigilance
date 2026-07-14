@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T11:49:09.513Z",
+  "generated_at": "2026-07-14T13:53:19.146Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -149,17 +149,33 @@
       "code": "DE",
       "name_fr": "Allemagne",
       "ok": true,
-      "max_level": "yellow",
-      "max_level_label": "Jaune",
-      "active_zone_count": 140,
+      "max_level": "orange",
+      "max_level_label": "Orange",
+      "active_zone_count": 168,
       "hazards": [
+        {
+          "type": "thunderstorms with gale- or storm-force gusts, very heavy rain and hail",
+          "label_fr": "thunderstorms with gale- or storm-force gusts, very heavy rain and hail",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 4,
+          "total_zone_count": 4
+        },
         {
           "type": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
           "label_fr": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 17,
-          "total_zone_count": 17
+          "zone_count": 65,
+          "total_zone_count": 65
+        },
+        {
+          "type": "heavy thunderstorms with gale- or storm-force gusts and heavy rain",
+          "label_fr": "heavy thunderstorms with gale- or storm-force gusts and heavy rain",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 7,
+          "total_zone_count": 7
         },
         {
           "type": "heavy thunderstorms with heavy rain",
@@ -176,14 +192,6 @@
           "level_label": "Vert",
           "zone_count": 119,
           "total_zone_count": 119
-        },
-        {
-          "type": "thunderstorms, possibly with wind gusts",
-          "label_fr": "thunderstorms, possibly with wind gusts",
-          "level": "green",
-          "level_label": "Vert",
-          "zone_count": 3,
-          "total_zone_count": 3
         }
       ]
     },
@@ -219,6 +227,14 @@
           "level_label": "Orange",
           "zone_count": 59,
           "total_zone_count": 59
+        },
+        {
+          "type": "heavy thunderstorm",
+          "label_fr": "heavy thunderstorm",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 2,
+          "total_zone_count": 2
         }
       ]
     },
@@ -235,8 +251,8 @@
           "label_fr": "thunderstormwarning",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 12,
-          "total_zone_count": 81
+          "zone_count": 13,
+          "total_zone_count": 79
         },
         {
           "type": "heatwarning",
