@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T22:05:18.623Z",
+  "generated_at": "2026-07-15T23:30:36.978Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -59,15 +59,15 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 81,
+      "active_zone_count": 83,
       "hazards": [
         {
           "type": "high-temperature",
           "label_fr": "Canicule",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 14,
-          "total_zone_count": 61
+          "zone_count": 16,
+          "total_zone_count": 63
         },
         {
           "type": "rain",
@@ -124,8 +124,8 @@
           "label_fr": "orange high-temperature",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 4,
-          "total_zone_count": 4
+          "zone_count": 5,
+          "total_zone_count": 5
         },
         {
           "type": "yellow high-temperature",
@@ -140,8 +140,8 @@
           "label_fr": "yellow thunderstorm",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 4,
-          "total_zone_count": 4
+          "zone_count": 5,
+          "total_zone_count": 5
         }
       ]
     },
@@ -149,10 +149,18 @@
       "code": "DE",
       "name_fr": "Allemagne",
       "ok": true,
-      "max_level": "green",
-      "max_level_label": "Vert",
-      "active_zone_count": 30,
+      "max_level": "yellow",
+      "max_level_label": "Jaune",
+      "active_zone_count": 31,
       "hazards": [
+        {
+          "type": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
+          "label_fr": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 1,
+          "total_zone_count": 1
+        },
         {
           "type": "strong heat",
           "label_fr": "strong heat",
@@ -178,7 +186,7 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 63,
+      "active_zone_count": 59,
       "hazards": [
         {
           "type": "widespread heavy thunderstorms possible",
@@ -195,14 +203,6 @@
           "level_label": "Orange",
           "zone_count": 7,
           "total_zone_count": 7
-        },
-        {
-          "type": "heavy thunderstorm",
-          "label_fr": "heavy thunderstorm",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 4,
-          "total_zone_count": 4
         }
       ]
     },
@@ -212,23 +212,23 @@
       "ok": true,
       "max_level": "yellow",
       "max_level_label": "Jaune",
-      "active_zone_count": 107,
+      "active_zone_count": 116,
       "hazards": [
-        {
-          "type": "heatwarning",
-          "label_fr": "heatwarning",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 103,
-          "total_zone_count": 103
-        },
         {
           "type": "thunderstormwarning",
           "label_fr": "thunderstormwarning",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 15,
-          "total_zone_count": 15
+          "zone_count": 116,
+          "total_zone_count": 116
+        },
+        {
+          "type": "heatwarning",
+          "label_fr": "heatwarning",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 109,
+          "total_zone_count": 109
         }
       ]
     },
