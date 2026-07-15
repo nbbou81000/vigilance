@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T23:55:34.775Z",
+  "generated_at": "2026-07-15T02:50:16.184Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -59,7 +59,7 @@
       "ok": true,
       "max_level": "red",
       "max_level_label": "Rouge",
-      "active_zone_count": 77,
+      "active_zone_count": 76,
       "hazards": [
         {
           "type": "high-temperature",
@@ -74,16 +74,16 @@
           "label_fr": "Orages",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 12,
-          "total_zone_count": 12
+          "zone_count": 11,
+          "total_zone_count": 11
         },
         {
           "type": "rain",
           "label_fr": "Pluie",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 4,
-          "total_zone_count": 4
+          "zone_count": 3,
+          "total_zone_count": 3
         }
       ]
     },
@@ -134,14 +134,6 @@
           "level_label": "Jaune",
           "zone_count": 6,
           "total_zone_count": 6
-        },
-        {
-          "type": "yellow rain",
-          "label_fr": "yellow rain",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 2,
-          "total_zone_count": 2
         }
       ]
     },
@@ -151,7 +143,7 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 63,
+      "active_zone_count": 67,
       "hazards": [
         {
           "type": "heavy thunderstorms with gale- or storm-force gusts and very heavy rain",
@@ -166,8 +158,8 @@
           "label_fr": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 27,
-          "total_zone_count": 27
+          "zone_count": 33,
+          "total_zone_count": 33
         },
         {
           "type": "heavy thunderstorms with heavy rain",
@@ -243,8 +235,8 @@
           "label_fr": "thunderstormwarning",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 3,
-          "total_zone_count": 58
+          "zone_count": 1,
+          "total_zone_count": 55
         },
         {
           "type": "heatwarning",
