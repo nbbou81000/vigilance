@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T05:36:27.691Z",
+  "generated_at": "2026-07-15T08:21:06.425Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -149,17 +149,25 @@
       "code": "DE",
       "name_fr": "Allemagne",
       "ok": true,
-      "max_level": "yellow",
-      "max_level_label": "Jaune",
-      "active_zone_count": 53,
+      "max_level": "orange",
+      "max_level_label": "Orange",
+      "active_zone_count": 58,
       "hazards": [
+        {
+          "type": "thunderstorms",
+          "label_fr": "thunderstorms",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 36,
+          "total_zone_count": 36
+        },
         {
           "type": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
           "label_fr": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 27,
-          "total_zone_count": 27
+          "zone_count": 9,
+          "total_zone_count": 9
         },
         {
           "type": "strong heat",
@@ -186,15 +194,15 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 133,
+      "active_zone_count": 159,
       "hazards": [
         {
           "type": "widespread heavy thunderstorms possible",
           "label_fr": "widespread heavy thunderstorms possible",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 88,
-          "total_zone_count": 88
+          "zone_count": 159,
+          "total_zone_count": 159
         },
         {
           "type": "heat wave",
@@ -203,14 +211,6 @@
           "level_label": "Orange",
           "zone_count": 59,
           "total_zone_count": 59
-        },
-        {
-          "type": "heavy thunderstorm",
-          "label_fr": "heavy thunderstorm",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 2,
-          "total_zone_count": 2
         }
       ]
     },
