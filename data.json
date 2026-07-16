@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T12:04:53.568Z",
+  "generated_at": "2026-07-16T14:33:42.071Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -14,7 +14,7 @@
           "label_fr": "Canicule",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 31,
+          "zone_count": 32,
           "total_zone_count": 89
         },
         {
@@ -22,16 +22,16 @@
           "label_fr": "Orages",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 21,
-          "total_zone_count": 90
+          "zone_count": 30,
+          "total_zone_count": 89
         },
         {
           "type": "rain-flood",
           "label_fr": "Pluie-inondation",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 8,
-          "total_zone_count": 8
+          "zone_count": 9,
+          "total_zone_count": 9
         }
       ]
     },
@@ -151,7 +151,7 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 113,
+      "active_zone_count": 129,
       "hazards": [
         {
           "type": "thunderstorms",
@@ -162,12 +162,20 @@
           "total_zone_count": 77
         },
         {
+          "type": "thunderstorms with  violent storm or hurricane-force gusts, very heavy rain and hail",
+          "label_fr": "thunderstorms with  violent storm or hurricane-force gusts, very heavy rain and hail",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 4,
+          "total_zone_count": 4
+        },
+        {
           "type": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
           "label_fr": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 23,
-          "total_zone_count": 23
+          "zone_count": 52,
+          "total_zone_count": 52
         },
         {
           "type": "heavy thunderstorms with heavy rain",
@@ -190,8 +198,8 @@
           "label_fr": "thunderstorms, possibly with wind gusts",
           "level": "green",
           "level_label": "Vert",
-          "zone_count": 9,
-          "total_zone_count": 9
+          "zone_count": 1,
+          "total_zone_count": 1
         }
       ]
     },
