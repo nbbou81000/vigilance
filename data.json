@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T23:30:36.978Z",
+  "generated_at": "2026-07-16T02:53:10.627Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -93,7 +93,7 @@
       "ok": true,
       "max_level": "red",
       "max_level_label": "Rouge",
-      "active_zone_count": 18,
+      "active_zone_count": 17,
       "hazards": [
         {
           "type": "red high-temperature",
@@ -104,28 +104,20 @@
           "total_zone_count": 4
         },
         {
-          "type": "red thunderstorm",
-          "label_fr": "red thunderstorm",
-          "level": "red",
-          "level_label": "Rouge",
-          "zone_count": 4,
-          "total_zone_count": 4
-        },
-        {
           "type": "orange thunderstorm",
           "label_fr": "orange thunderstorm",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 6,
-          "total_zone_count": 6
+          "zone_count": 3,
+          "total_zone_count": 3
         },
         {
           "type": "orange high-temperature",
           "label_fr": "orange high-temperature",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 5,
-          "total_zone_count": 5
+          "zone_count": 2,
+          "total_zone_count": 2
         },
         {
           "type": "yellow high-temperature",
@@ -149,18 +141,10 @@
       "code": "DE",
       "name_fr": "Allemagne",
       "ok": true,
-      "max_level": "yellow",
-      "max_level_label": "Jaune",
-      "active_zone_count": 31,
+      "max_level": "green",
+      "max_level_label": "Vert",
+      "active_zone_count": 30,
       "hazards": [
-        {
-          "type": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
-          "label_fr": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 1,
-          "total_zone_count": 1
-        },
         {
           "type": "strong heat",
           "label_fr": "strong heat",
@@ -184,27 +168,10 @@
       "code": "CH",
       "name_fr": "Suisse",
       "ok": true,
-      "max_level": "orange",
-      "max_level_label": "Orange",
-      "active_zone_count": 59,
-      "hazards": [
-        {
-          "type": "widespread heavy thunderstorms possible",
-          "label_fr": "widespread heavy thunderstorms possible",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 52,
-          "total_zone_count": 52
-        },
-        {
-          "type": "heat wave",
-          "label_fr": "heat wave",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 7,
-          "total_zone_count": 7
-        }
-      ]
+      "max_level": "green",
+      "max_level_label": "Vert",
+      "active_zone_count": 0,
+      "hazards": []
     },
     "AT": {
       "code": "AT",
