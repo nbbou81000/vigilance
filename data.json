@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T17:47:03.963Z",
+  "generated_at": "2026-07-16T19:18:20.941Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -67,31 +67,31 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 90,
+      "active_zone_count": 62,
       "hazards": [
-        {
-          "type": "high-temperature",
-          "label_fr": "Canicule",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 16,
-          "total_zone_count": 70
-        },
         {
           "type": "rain",
           "label_fr": "Pluie",
           "level": "orange",
           "level_label": "Orange",
           "zone_count": 5,
-          "total_zone_count": 19
+          "total_zone_count": 11
+        },
+        {
+          "type": "high-temperature",
+          "label_fr": "Canicule",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 4,
+          "total_zone_count": 50
         },
         {
           "type": "thunderstorm",
           "label_fr": "Orages",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 24,
-          "total_zone_count": 24
+          "zone_count": 16,
+          "total_zone_count": 16
         }
       ]
     },
@@ -151,7 +151,7 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 78,
+      "active_zone_count": 77,
       "hazards": [
         {
           "type": "thunderstorms",
@@ -160,30 +160,6 @@
           "level_label": "Orange",
           "zone_count": 77,
           "total_zone_count": 77
-        },
-        {
-          "type": "thunderstorms with  violent storm or hurricane-force gusts, very heavy rain and hail",
-          "label_fr": "thunderstorms with  violent storm or hurricane-force gusts, very heavy rain and hail",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 3,
-          "total_zone_count": 3
-        },
-        {
-          "type": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
-          "label_fr": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 16,
-          "total_zone_count": 16
-        },
-        {
-          "type": "thunderstorms, possibly with wind gusts",
-          "label_fr": "thunderstorms, possibly with wind gusts",
-          "level": "green",
-          "level_label": "Vert",
-          "zone_count": 2,
-          "total_zone_count": 2
         }
       ]
     },
@@ -200,18 +176,10 @@
       "code": "CH",
       "name_fr": "Suisse",
       "ok": true,
-      "max_level": "red",
-      "max_level_label": "Rouge",
+      "max_level": "orange",
+      "max_level_label": "Orange",
       "active_zone_count": 140,
       "hazards": [
-        {
-          "type": "violent thunderstorm",
-          "label_fr": "violent thunderstorm",
-          "level": "red",
-          "level_label": "Rouge",
-          "zone_count": 8,
-          "total_zone_count": 8
-        },
         {
           "type": "widespread heavy thunderstorms possible",
           "label_fr": "widespread heavy thunderstorms possible",
@@ -225,8 +193,8 @@
           "label_fr": "heavy thunderstorm",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 8,
-          "total_zone_count": 8
+          "zone_count": 1,
+          "total_zone_count": 1
         }
       ]
     },
@@ -260,19 +228,10 @@
       "code": "NL",
       "name_fr": "Pays-Bas",
       "ok": true,
-      "max_level": "yellow",
-      "max_level_label": "Jaune",
-      "active_zone_count": 7,
-      "hazards": [
-        {
-          "type": "high-temperature",
-          "label_fr": "Canicule",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 7,
-          "total_zone_count": 7
-        }
-      ]
+      "max_level": "green",
+      "max_level_label": "Vert",
+      "active_zone_count": 0,
+      "hazards": []
     },
     "GB": {
       "code": "GB",
