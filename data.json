@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T14:33:42.071Z",
+  "generated_at": "2026-07-16T16:19:49.977Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -151,7 +151,7 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 129,
+      "active_zone_count": 133,
       "hazards": [
         {
           "type": "thunderstorms",
@@ -162,28 +162,36 @@
           "total_zone_count": 77
         },
         {
+          "type": "thunderstorms with gale- or storm-force gusts, very heavy rain and hail",
+          "label_fr": "thunderstorms with gale- or storm-force gusts, very heavy rain and hail",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 6,
+          "total_zone_count": 6
+        },
+        {
           "type": "thunderstorms with  violent storm or hurricane-force gusts, very heavy rain and hail",
           "label_fr": "thunderstorms with  violent storm or hurricane-force gusts, very heavy rain and hail",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 4,
-          "total_zone_count": 4
+          "zone_count": 2,
+          "total_zone_count": 2
         },
         {
           "type": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
           "label_fr": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 52,
-          "total_zone_count": 52
+          "zone_count": 72,
+          "total_zone_count": 72
         },
         {
           "type": "heavy thunderstorms with heavy rain",
           "label_fr": "heavy thunderstorms with heavy rain",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 11,
-          "total_zone_count": 11
+          "zone_count": 6,
+          "total_zone_count": 6
         },
         {
           "type": "strong heat",
@@ -198,8 +206,8 @@
           "label_fr": "thunderstorms, possibly with wind gusts",
           "level": "green",
           "level_label": "Vert",
-          "zone_count": 1,
-          "total_zone_count": 1
+          "zone_count": 6,
+          "total_zone_count": 6
         }
       ]
     },
@@ -216,10 +224,18 @@
       "code": "CH",
       "name_fr": "Suisse",
       "ok": true,
-      "max_level": "orange",
-      "max_level_label": "Orange",
+      "max_level": "red",
+      "max_level_label": "Rouge",
       "active_zone_count": 140,
       "hazards": [
+        {
+          "type": "violent thunderstorm",
+          "label_fr": "violent thunderstorm",
+          "level": "red",
+          "level_label": "Rouge",
+          "zone_count": 2,
+          "total_zone_count": 2
+        },
         {
           "type": "widespread heavy thunderstorms possible",
           "label_fr": "widespread heavy thunderstorms possible",
@@ -227,6 +243,14 @@
           "level_label": "Orange",
           "zone_count": 140,
           "total_zone_count": 140
+        },
+        {
+          "type": "heavy thunderstorm",
+          "label_fr": "heavy thunderstorm",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 10,
+          "total_zone_count": 10
         }
       ]
     },
