@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T04:43:07.627Z",
+  "generated_at": "2026-07-17T07:20:27.452Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -116,8 +116,8 @@
           "label_fr": "orange thunderstorm",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 4,
-          "total_zone_count": 4
+          "zone_count": 3,
+          "total_zone_count": 3
         },
         {
           "type": "yellow high-temperature",
@@ -141,33 +141,41 @@
       "code": "DE",
       "name_fr": "Allemagne",
       "ok": true,
-      "max_level": "yellow",
-      "max_level_label": "Jaune",
-      "active_zone_count": 38,
+      "max_level": "orange",
+      "max_level_label": "Orange",
+      "active_zone_count": 83,
       "hazards": [
         {
-          "type": "heavy thunderstorms with heavy rain",
-          "label_fr": "heavy thunderstorms with heavy rain",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 20,
-          "total_zone_count": 20
+          "type": "thunderstorms",
+          "label_fr": "thunderstorms",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 83,
+          "total_zone_count": 83
         },
         {
           "type": "heavy thunderstorms with gale- or storm-force gusts and heavy rain",
           "label_fr": "heavy thunderstorms with gale- or storm-force gusts and heavy rain",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 11,
-          "total_zone_count": 11
+          "zone_count": 10,
+          "total_zone_count": 10
+        },
+        {
+          "type": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
+          "label_fr": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 2,
+          "total_zone_count": 2
         },
         {
           "type": "thunderstorms, possibly with wind gusts",
           "label_fr": "thunderstorms, possibly with wind gusts",
           "level": "green",
           "level_label": "Vert",
-          "zone_count": 10,
-          "total_zone_count": 10
+          "zone_count": 7,
+          "total_zone_count": 7
         }
       ]
     },
