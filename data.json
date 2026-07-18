@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T20:21:51.636Z",
+  "generated_at": "2026-07-18T21:25:54.027Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -30,20 +30,11 @@
     "BE": {
       "code": "BE",
       "name_fr": "Belgique",
-      "ok": true,
-      "max_level": "yellow",
-      "max_level_label": "Jaune",
-      "active_zone_count": 1,
-      "hazards": [
-        {
-          "type": "green warning for heatwave",
-          "label_fr": "green warning for heatwave",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 1,
-          "total_zone_count": 1
-        }
-      ]
+      "ok": false,
+      "max_level": "unknown",
+      "max_level_label": "Indisponible",
+      "active_zone_count": 0,
+      "hazards": []
     },
     "ES": {
       "code": "ES",
@@ -135,7 +126,7 @@
       "ok": true,
       "max_level": "yellow",
       "max_level_label": "Jaune",
-      "active_zone_count": 39,
+      "active_zone_count": 42,
       "hazards": [
         {
           "type": "heavy rain",
@@ -166,8 +157,8 @@
           "label_fr": "thunderstorms, possibly with wind gusts",
           "level": "green",
           "level_label": "Vert",
-          "zone_count": 10,
-          "total_zone_count": 10
+          "zone_count": 13,
+          "total_zone_count": 13
         }
       ]
     },
@@ -192,20 +183,46 @@
     "AT": {
       "code": "AT",
       "name_fr": "Autriche",
-      "ok": false,
-      "max_level": "unknown",
-      "max_level_label": "Indisponible",
-      "active_zone_count": 0,
-      "hazards": []
+      "ok": true,
+      "max_level": "yellow",
+      "max_level_label": "Jaune",
+      "active_zone_count": 116,
+      "hazards": [
+        {
+          "type": "stormwarning",
+          "label_fr": "stormwarning",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 74,
+          "total_zone_count": 74
+        },
+        {
+          "type": "thunderstormwarning",
+          "label_fr": "thunderstormwarning",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 73,
+          "total_zone_count": 73
+        }
+      ]
     },
     "NL": {
       "code": "NL",
       "name_fr": "Pays-Bas",
-      "ok": false,
-      "max_level": "unknown",
-      "max_level_label": "Indisponible",
-      "active_zone_count": 0,
-      "hazards": []
+      "ok": true,
+      "max_level": "yellow",
+      "max_level_label": "Jaune",
+      "active_zone_count": 6,
+      "hazards": [
+        {
+          "type": "wind",
+          "label_fr": "Vent",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 6,
+          "total_zone_count": 6
+        }
+      ]
     },
     "GB": {
       "code": "GB",
