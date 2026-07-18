@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T17:57:45.850Z",
+  "generated_at": "2026-07-18T19:17:02.643Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -51,15 +51,15 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 67,
+      "active_zone_count": 63,
       "hazards": [
         {
           "type": "high-temperature",
           "label_fr": "Canicule",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 4,
-          "total_zone_count": 62
+          "zone_count": 1,
+          "total_zone_count": 58
         },
         {
           "type": "thunderstorm",
@@ -85,7 +85,7 @@
       "ok": true,
       "max_level": "red",
       "max_level_label": "Rouge",
-      "active_zone_count": 17,
+      "active_zone_count": 16,
       "hazards": [
         {
           "type": "red high-temperature",
@@ -108,16 +108,16 @@
           "label_fr": "orange high-temperature",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 2,
-          "total_zone_count": 2
+          "zone_count": 1,
+          "total_zone_count": 1
         },
         {
           "type": "yellow high-temperature",
           "label_fr": "yellow high-temperature",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 8,
-          "total_zone_count": 8
+          "zone_count": 7,
+          "total_zone_count": 7
         },
         {
           "type": "yellow thunderstorm",
@@ -135,47 +135,47 @@
       "ok": true,
       "max_level": "yellow",
       "max_level_label": "Jaune",
-      "active_zone_count": 92,
+      "active_zone_count": 48,
       "hazards": [
         {
           "type": "heavy rain",
           "label_fr": "heavy rain",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 22,
-          "total_zone_count": 22
+          "zone_count": 19,
+          "total_zone_count": 19
         },
         {
-          "type": "heavy thunderstorms with heavy rain",
-          "label_fr": "heavy thunderstorms with heavy rain",
+          "type": "heavy thunderstorms with gale- or storm-force gusts and heavy rain",
+          "label_fr": "heavy thunderstorms with gale- or storm-force gusts and heavy rain",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 10,
-          "total_zone_count": 10
+          "zone_count": 5,
+          "total_zone_count": 5
         },
         {
           "type": "gale-force gusts",
           "label_fr": "gale-force gusts",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 3,
-          "total_zone_count": 3
-        },
-        {
-          "type": "wind gusts",
-          "label_fr": "wind gusts",
-          "level": "green",
-          "level_label": "Vert",
-          "zone_count": 62,
-          "total_zone_count": 62
+          "zone_count": 1,
+          "total_zone_count": 1
         },
         {
           "type": "thunderstorms, possibly with wind gusts",
           "label_fr": "thunderstorms, possibly with wind gusts",
           "level": "green",
           "level_label": "Vert",
-          "zone_count": 19,
-          "total_zone_count": 19
+          "zone_count": 16,
+          "total_zone_count": 16
+        },
+        {
+          "type": "wind gusts",
+          "label_fr": "wind gusts",
+          "level": "green",
+          "level_label": "Vert",
+          "zone_count": 16,
+          "total_zone_count": 16
         }
       ]
     },
@@ -206,20 +206,20 @@
       "active_zone_count": 116,
       "hazards": [
         {
+          "type": "thunderstormwarning",
+          "label_fr": "thunderstormwarning",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 77,
+          "total_zone_count": 77
+        },
+        {
           "type": "stormwarning",
           "label_fr": "stormwarning",
           "level": "yellow",
           "level_label": "Jaune",
           "zone_count": 74,
           "total_zone_count": 74
-        },
-        {
-          "type": "thunderstormwarning",
-          "label_fr": "thunderstormwarning",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 72,
-          "total_zone_count": 72
         }
       ]
     },
