@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T14:02:17.101Z",
+  "generated_at": "2026-07-18T15:30:15.675Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -48,11 +48,28 @@
     "ES": {
       "code": "ES",
       "name_fr": "Espagne",
-      "ok": false,
-      "max_level": "unknown",
-      "max_level_label": "Indisponible",
-      "active_zone_count": 0,
-      "hazards": []
+      "ok": true,
+      "max_level": "orange",
+      "max_level_label": "Orange",
+      "active_zone_count": 58,
+      "hazards": [
+        {
+          "type": "high-temperature",
+          "label_fr": "Canicule",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 5,
+          "total_zone_count": 58
+        },
+        {
+          "type": "thunderstorm",
+          "label_fr": "Orages",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 7,
+          "total_zone_count": 7
+        }
+      ]
     },
     "IT": {
       "code": "IT",
@@ -107,11 +124,60 @@
     "DE": {
       "code": "DE",
       "name_fr": "Allemagne",
-      "ok": false,
-      "max_level": "unknown",
-      "max_level_label": "Indisponible",
-      "active_zone_count": 0,
-      "hazards": []
+      "ok": true,
+      "max_level": "yellow",
+      "max_level_label": "Jaune",
+      "active_zone_count": 101,
+      "hazards": [
+        {
+          "type": "heavy rain",
+          "label_fr": "heavy rain",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 19,
+          "total_zone_count": 19
+        },
+        {
+          "type": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
+          "label_fr": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 16,
+          "total_zone_count": 16
+        },
+        {
+          "type": "heavy thunderstorms with heavy rain",
+          "label_fr": "heavy thunderstorms with heavy rain",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 10,
+          "total_zone_count": 10
+        },
+        {
+          "type": "gale-force gusts",
+          "label_fr": "gale-force gusts",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 3,
+          "total_zone_count": 3
+        },
+        {
+          "type": "wind gusts",
+          "label_fr": "wind gusts",
+          "level": "green",
+          "level_label": "Vert",
+          "zone_count": 62,
+          "total_zone_count": 62
+        },
+        {
+          "type": "thunderstorms, possibly with wind gusts",
+          "label_fr": "thunderstorms, possibly with wind gusts",
+          "level": "green",
+          "level_label": "Vert",
+          "zone_count": 17,
+          "total_zone_count": 17
+        }
+      ]
     },
     "PT": {
       "code": "PT",
@@ -149,20 +215,20 @@
       "active_zone_count": 116,
       "hazards": [
         {
-          "type": "stormwarning",
-          "label_fr": "stormwarning",
+          "type": "thunderstormwarning",
+          "label_fr": "thunderstormwarning",
           "level": "yellow",
           "level_label": "Jaune",
           "zone_count": 74,
           "total_zone_count": 74
         },
         {
-          "type": "thunderstormwarning",
-          "label_fr": "thunderstormwarning",
+          "type": "stormwarning",
+          "label_fr": "stormwarning",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 72,
-          "total_zone_count": 72
+          "zone_count": 74,
+          "total_zone_count": 74
         }
       ]
     },
@@ -172,15 +238,15 @@
       "ok": true,
       "max_level": "yellow",
       "max_level_label": "Jaune",
-      "active_zone_count": 2,
+      "active_zone_count": 6,
       "hazards": [
         {
           "type": "wind",
           "label_fr": "Vent",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 2,
-          "total_zone_count": 2
+          "zone_count": 6,
+          "total_zone_count": 6
         }
       ]
     },
