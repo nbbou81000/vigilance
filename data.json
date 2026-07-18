@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T06:29:07.502Z",
+  "generated_at": "2026-07-18T08:24:33.516Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -51,7 +51,7 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 58,
+      "active_zone_count": 59,
       "hazards": [
         {
           "type": "high-temperature",
@@ -59,15 +59,15 @@
           "level": "orange",
           "level_label": "Orange",
           "zone_count": 4,
-          "total_zone_count": 58
+          "total_zone_count": 59
         },
         {
           "type": "thunderstorm",
           "label_fr": "Orages",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 6,
-          "total_zone_count": 6
+          "zone_count": 7,
+          "total_zone_count": 7
         }
       ]
     },
@@ -127,7 +127,7 @@
       "ok": true,
       "max_level": "yellow",
       "max_level_label": "Jaune",
-      "active_zone_count": 67,
+      "active_zone_count": 63,
       "hazards": [
         {
           "type": "gale-force gusts",
@@ -144,14 +144,6 @@
           "level_label": "Vert",
           "zone_count": 62,
           "total_zone_count": 62
-        },
-        {
-          "type": "fog",
-          "label_fr": "Brouillard",
-          "level": "green",
-          "level_label": "Vert",
-          "zone_count": 4,
-          "total_zone_count": 4
         }
       ]
     },
@@ -179,15 +171,23 @@
       "ok": true,
       "max_level": "yellow",
       "max_level_label": "Jaune",
-      "active_zone_count": 24,
+      "active_zone_count": 116,
       "hazards": [
+        {
+          "type": "stormwarning",
+          "label_fr": "stormwarning",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 74,
+          "total_zone_count": 74
+        },
         {
           "type": "thunderstormwarning",
           "label_fr": "thunderstormwarning",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 24,
-          "total_zone_count": 24
+          "zone_count": 72,
+          "total_zone_count": 72
         }
       ]
     },
