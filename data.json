@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T21:57:27.866Z",
+  "generated_at": "2026-07-19T23:02:03.850Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -7,7 +7,7 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 18,
+      "active_zone_count": 13,
       "hazards": [
         {
           "type": "high-temperature",
@@ -15,15 +15,7 @@
           "level": "orange",
           "level_label": "Orange",
           "zone_count": 7,
-          "total_zone_count": 15
-        },
-        {
-          "type": "thunderstorm",
-          "label_fr": "Orages",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 8,
-          "total_zone_count": 8
+          "total_zone_count": 13
         }
       ]
     },
@@ -42,15 +34,15 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 76,
+      "active_zone_count": 91,
       "hazards": [
         {
           "type": "high-temperature",
           "label_fr": "Canicule",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 17,
-          "total_zone_count": 74
+          "zone_count": 32,
+          "total_zone_count": 89
         },
         {
           "type": "thunderstorm",
@@ -76,7 +68,7 @@
       "ok": true,
       "max_level": "red",
       "max_level_label": "Rouge",
-      "active_zone_count": 17,
+      "active_zone_count": 19,
       "hazards": [
         {
           "type": "red high-temperature",
@@ -87,12 +79,28 @@
           "total_zone_count": 5
         },
         {
+          "type": "orange thunderstorm",
+          "label_fr": "orange thunderstorm",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 4,
+          "total_zone_count": 4
+        },
+        {
+          "type": "orange rain",
+          "label_fr": "orange rain",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 1,
+          "total_zone_count": 1
+        },
+        {
           "type": "yellow thunderstorm",
           "label_fr": "yellow thunderstorm",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 8,
-          "total_zone_count": 8
+          "zone_count": 11,
+          "total_zone_count": 11
         },
         {
           "type": "yellow high-temperature",
@@ -107,27 +115,18 @@
     "DE": {
       "code": "DE",
       "name_fr": "Allemagne",
-      "ok": true,
-      "max_level": "green",
-      "max_level_label": "Vert",
-      "active_zone_count": 20,
-      "hazards": [
-        {
-          "type": "wind gusts",
-          "label_fr": "wind gusts",
-          "level": "green",
-          "level_label": "Vert",
-          "zone_count": 20,
-          "total_zone_count": 20
-        }
-      ]
+      "ok": false,
+      "max_level": "unknown",
+      "max_level_label": "Indisponible",
+      "active_zone_count": 0,
+      "hazards": []
     },
     "PT": {
       "code": "PT",
       "name_fr": "Portugal",
-      "ok": true,
-      "max_level": "green",
-      "max_level_label": "Vert",
+      "ok": false,
+      "max_level": "unknown",
+      "max_level_label": "Indisponible",
       "active_zone_count": 0,
       "hazards": []
     },
@@ -152,27 +151,27 @@
     "NL": {
       "code": "NL",
       "name_fr": "Pays-Bas",
-      "ok": true,
-      "max_level": "green",
-      "max_level_label": "Vert",
+      "ok": false,
+      "max_level": "unknown",
+      "max_level_label": "Indisponible",
       "active_zone_count": 0,
       "hazards": []
     },
     "GB": {
       "code": "GB",
       "name_fr": "Royaume-Uni",
-      "ok": true,
-      "max_level": "green",
-      "max_level_label": "Vert",
+      "ok": false,
+      "max_level": "unknown",
+      "max_level_label": "Indisponible",
       "active_zone_count": 0,
       "hazards": []
     },
     "IE": {
       "code": "IE",
       "name_fr": "Irlande",
-      "ok": true,
-      "max_level": "green",
-      "max_level_label": "Vert",
+      "ok": false,
+      "max_level": "unknown",
+      "max_level_label": "Indisponible",
       "active_zone_count": 0,
       "hazards": []
     },
