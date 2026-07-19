@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T07:28:55.760Z",
+  "generated_at": "2026-07-19T09:29:48.050Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -42,15 +42,15 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 76,
+      "active_zone_count": 82,
       "hazards": [
         {
           "type": "high-temperature",
           "label_fr": "Canicule",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 8,
-          "total_zone_count": 69
+          "zone_count": 13,
+          "total_zone_count": 77
         },
         {
           "type": "thunderstorm",
@@ -95,12 +95,12 @@
           "total_zone_count": 5
         },
         {
-          "type": "orange thunderstorm",
-          "label_fr": "orange thunderstorm",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 1,
-          "total_zone_count": 1
+          "type": "yellow thunderstorm",
+          "label_fr": "yellow thunderstorm",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 8,
+          "total_zone_count": 8
         },
         {
           "type": "yellow high-temperature",
@@ -109,14 +109,6 @@
           "level_label": "Jaune",
           "zone_count": 7,
           "total_zone_count": 7
-        },
-        {
-          "type": "yellow thunderstorm",
-          "label_fr": "yellow thunderstorm",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 6,
-          "total_zone_count": 6
         }
       ]
     },
@@ -126,31 +118,39 @@
       "ok": true,
       "max_level": "yellow",
       "max_level_label": "Jaune",
-      "active_zone_count": 59,
+      "active_zone_count": 37,
       "hazards": [
+        {
+          "type": "heavy thunderstorms with heavy rain",
+          "label_fr": "heavy thunderstorms with heavy rain",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 13,
+          "total_zone_count": 13
+        },
         {
           "type": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
           "label_fr": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 35,
-          "total_zone_count": 35
+          "zone_count": 4,
+          "total_zone_count": 4
         },
         {
           "type": "wind gusts",
           "label_fr": "wind gusts",
           "level": "green",
           "level_label": "Vert",
-          "zone_count": 21,
-          "total_zone_count": 21
+          "zone_count": 18,
+          "total_zone_count": 18
         },
         {
           "type": "thunderstorms, possibly with wind gusts",
           "label_fr": "thunderstorms, possibly with wind gusts",
           "level": "green",
           "level_label": "Vert",
-          "zone_count": 3,
-          "total_zone_count": 3
+          "zone_count": 5,
+          "total_zone_count": 5
         }
       ]
     },
@@ -176,10 +176,18 @@
       "code": "AT",
       "name_fr": "Autriche",
       "ok": true,
-      "max_level": "yellow",
-      "max_level_label": "Jaune",
+      "max_level": "orange",
+      "max_level_label": "Orange",
       "active_zone_count": 116,
       "hazards": [
+        {
+          "type": "thunderstormwarning",
+          "label_fr": "thunderstormwarning",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 4,
+          "total_zone_count": 83
+        },
         {
           "type": "stormwarning",
           "label_fr": "stormwarning",
@@ -187,14 +195,6 @@
           "level_label": "Jaune",
           "zone_count": 74,
           "total_zone_count": 74
-        },
-        {
-          "type": "thunderstormwarning",
-          "label_fr": "thunderstormwarning",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 73,
-          "total_zone_count": 73
         }
       ]
     },
