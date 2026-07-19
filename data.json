@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T15:31:31.803Z",
+  "generated_at": "2026-07-19T17:02:00.240Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -49,7 +49,7 @@
           "label_fr": "Canicule",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 15,
+          "zone_count": 17,
           "total_zone_count": 77
         },
         {
@@ -108,10 +108,26 @@
       "code": "DE",
       "name_fr": "Allemagne",
       "ok": true,
-      "max_level": "green",
-      "max_level_label": "Vert",
-      "active_zone_count": 21,
+      "max_level": "yellow",
+      "max_level_label": "Jaune",
+      "active_zone_count": 58,
       "hazards": [
+        {
+          "type": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
+          "label_fr": "heavy thunderstorms with gale- or storm-force gusts, heavy rain and hail",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 11,
+          "total_zone_count": 11
+        },
+        {
+          "type": "thunderstorms, possibly with wind gusts",
+          "label_fr": "thunderstorms, possibly with wind gusts",
+          "level": "green",
+          "level_label": "Vert",
+          "zone_count": 28,
+          "total_zone_count": 28
+        },
         {
           "type": "wind gusts",
           "label_fr": "wind gusts",
@@ -146,15 +162,15 @@
       "ok": true,
       "max_level": "yellow",
       "max_level_label": "Jaune",
-      "active_zone_count": 58,
+      "active_zone_count": 6,
       "hazards": [
         {
           "type": "thunderstormwarning",
           "label_fr": "thunderstormwarning",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 58,
-          "total_zone_count": 58
+          "zone_count": 6,
+          "total_zone_count": 6
         }
       ]
     },
