@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T18:08:07.415Z",
+  "generated_at": "2026-07-20T20:07:35.086Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -42,23 +42,23 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 98,
+      "active_zone_count": 92,
       "hazards": [
         {
           "type": "high-temperature",
           "label_fr": "Canicule",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 31,
-          "total_zone_count": 95
+          "zone_count": 29,
+          "total_zone_count": 89
         },
         {
           "type": "thunderstorm",
           "label_fr": "Orages",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 5,
-          "total_zone_count": 5
+          "zone_count": 4,
+          "total_zone_count": 4
         },
         {
           "type": "coastalevent",
