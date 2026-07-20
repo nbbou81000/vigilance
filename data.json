@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T08:25:32.874Z",
+  "generated_at": "2026-07-20T11:23:23.167Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -42,31 +42,31 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 91,
+      "active_zone_count": 95,
       "hazards": [
         {
           "type": "high-temperature",
           "label_fr": "Canicule",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 32,
-          "total_zone_count": 89
+          "zone_count": 31,
+          "total_zone_count": 92
         },
         {
           "type": "thunderstorm",
           "label_fr": "Orages",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 5,
-          "total_zone_count": 5
+          "zone_count": 7,
+          "total_zone_count": 7
         },
         {
           "type": "coastalevent",
           "label_fr": "Événement côtier",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 2,
-          "total_zone_count": 2
+          "zone_count": 3,
+          "total_zone_count": 3
         }
       ]
     },
@@ -91,24 +91,16 @@
           "label_fr": "orange thunderstorm",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 4,
-          "total_zone_count": 4
-        },
-        {
-          "type": "orange rain",
-          "label_fr": "orange rain",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 1,
-          "total_zone_count": 1
+          "zone_count": 2,
+          "total_zone_count": 2
         },
         {
           "type": "yellow thunderstorm",
           "label_fr": "yellow thunderstorm",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 11,
-          "total_zone_count": 11
+          "zone_count": 15,
+          "total_zone_count": 15
         },
         {
           "type": "yellow high-temperature",
@@ -124,25 +116,25 @@
       "code": "DE",
       "name_fr": "Allemagne",
       "ok": true,
-      "max_level": "green",
-      "max_level_label": "Vert",
-      "active_zone_count": 21,
+      "max_level": "yellow",
+      "max_level_label": "Jaune",
+      "active_zone_count": 13,
       "hazards": [
+        {
+          "type": "heavy thunderstorms with heavy rain",
+          "label_fr": "heavy thunderstorms with heavy rain",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 3,
+          "total_zone_count": 3
+        },
         {
           "type": "wind gusts",
           "label_fr": "wind gusts",
           "level": "green",
           "level_label": "Vert",
-          "zone_count": 20,
-          "total_zone_count": 20
-        },
-        {
-          "type": "thunderstorms, possibly with wind gusts",
-          "label_fr": "thunderstorms, possibly with wind gusts",
-          "level": "green",
-          "level_label": "Vert",
-          "zone_count": 1,
-          "total_zone_count": 1
+          "zone_count": 10,
+          "total_zone_count": 10
         }
       ]
     },
