@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T23:02:03.850Z",
+  "generated_at": "2026-07-20T01:05:49.839Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -115,18 +115,27 @@
     "DE": {
       "code": "DE",
       "name_fr": "Allemagne",
-      "ok": false,
-      "max_level": "unknown",
-      "max_level_label": "Indisponible",
-      "active_zone_count": 0,
-      "hazards": []
+      "ok": true,
+      "max_level": "green",
+      "max_level_label": "Vert",
+      "active_zone_count": 20,
+      "hazards": [
+        {
+          "type": "wind gusts",
+          "label_fr": "wind gusts",
+          "level": "green",
+          "level_label": "Vert",
+          "zone_count": 20,
+          "total_zone_count": 20
+        }
+      ]
     },
     "PT": {
       "code": "PT",
       "name_fr": "Portugal",
-      "ok": false,
-      "max_level": "unknown",
-      "max_level_label": "Indisponible",
+      "ok": true,
+      "max_level": "green",
+      "max_level_label": "Vert",
       "active_zone_count": 0,
       "hazards": []
     },
@@ -151,27 +160,27 @@
     "NL": {
       "code": "NL",
       "name_fr": "Pays-Bas",
-      "ok": false,
-      "max_level": "unknown",
-      "max_level_label": "Indisponible",
+      "ok": true,
+      "max_level": "green",
+      "max_level_label": "Vert",
       "active_zone_count": 0,
       "hazards": []
     },
     "GB": {
       "code": "GB",
       "name_fr": "Royaume-Uni",
-      "ok": false,
-      "max_level": "unknown",
-      "max_level_label": "Indisponible",
+      "ok": true,
+      "max_level": "green",
+      "max_level_label": "Vert",
       "active_zone_count": 0,
       "hazards": []
     },
     "IE": {
       "code": "IE",
       "name_fr": "Irlande",
-      "ok": false,
-      "max_level": "unknown",
-      "max_level_label": "Indisponible",
+      "ok": true,
+      "max_level": "green",
+      "max_level_label": "Vert",
       "active_zone_count": 0,
       "hazards": []
     },
