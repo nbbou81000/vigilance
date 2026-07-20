@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T15:31:08.250Z",
+  "generated_at": "2026-07-20T18:08:07.415Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -42,7 +42,7 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 97,
+      "active_zone_count": 98,
       "hazards": [
         {
           "type": "high-temperature",
@@ -50,15 +50,15 @@
           "level": "orange",
           "level_label": "Orange",
           "zone_count": 31,
-          "total_zone_count": 92
+          "total_zone_count": 95
         },
         {
           "type": "thunderstorm",
           "label_fr": "Orages",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 9,
-          "total_zone_count": 9
+          "zone_count": 5,
+          "total_zone_count": 5
         },
         {
           "type": "coastalevent",
@@ -76,7 +76,7 @@
       "ok": true,
       "max_level": "red",
       "max_level_label": "Rouge",
-      "active_zone_count": 19,
+      "active_zone_count": 18,
       "hazards": [
         {
           "type": "red high-temperature",
@@ -99,16 +99,16 @@
           "label_fr": "yellow thunderstorm",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 15,
-          "total_zone_count": 15
+          "zone_count": 12,
+          "total_zone_count": 12
         },
         {
           "type": "yellow high-temperature",
           "label_fr": "yellow high-temperature",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 6,
-          "total_zone_count": 6
+          "zone_count": 5,
+          "total_zone_count": 5
         }
       ]
     },
@@ -118,17 +118,8 @@
       "ok": true,
       "max_level": "green",
       "max_level_label": "Vert",
-      "active_zone_count": 10,
-      "hazards": [
-        {
-          "type": "wind gusts",
-          "label_fr": "wind gusts",
-          "level": "green",
-          "level_label": "Vert",
-          "zone_count": 10,
-          "total_zone_count": 10
-        }
-      ]
+      "active_zone_count": 0,
+      "hazards": []
     },
     "PT": {
       "code": "PT",
