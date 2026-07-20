@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T11:23:23.167Z",
+  "generated_at": "2026-07-20T13:27:02.124Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -116,18 +116,10 @@
       "code": "DE",
       "name_fr": "Allemagne",
       "ok": true,
-      "max_level": "yellow",
-      "max_level_label": "Jaune",
-      "active_zone_count": 13,
+      "max_level": "green",
+      "max_level_label": "Vert",
+      "active_zone_count": 10,
       "hazards": [
-        {
-          "type": "heavy thunderstorms with heavy rain",
-          "label_fr": "heavy thunderstorms with heavy rain",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 3,
-          "total_zone_count": 3
-        },
         {
           "type": "wind gusts",
           "label_fr": "wind gusts",
