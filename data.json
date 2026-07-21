@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T12:10:32.174Z",
+  "generated_at": "2026-07-21T14:35:42.082Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -7,7 +7,7 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 15,
+      "active_zone_count": 18,
       "hazards": [
         {
           "type": "high-temperature",
@@ -15,15 +15,15 @@
           "level": "orange",
           "level_label": "Orange",
           "zone_count": 6,
-          "total_zone_count": 13
+          "total_zone_count": 18
         },
         {
           "type": "thunderstorm",
           "label_fr": "Orages",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 6,
-          "total_zone_count": 6
+          "zone_count": 2,
+          "total_zone_count": 2
         }
       ]
     },
@@ -134,26 +134,35 @@
       "code": "CH",
       "name_fr": "Suisse",
       "ok": true,
-      "max_level": "green",
-      "max_level_label": "Vert",
-      "active_zone_count": 0,
-      "hazards": []
+      "max_level": "orange",
+      "max_level_label": "Orange",
+      "active_zone_count": 3,
+      "hazards": [
+        {
+          "type": "heavy thunderstorm",
+          "label_fr": "heavy thunderstorm",
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 3,
+          "total_zone_count": 3
+        }
+      ]
     },
     "AT": {
       "code": "AT",
       "name_fr": "Autriche",
       "ok": true,
-      "max_level": "yellow",
-      "max_level_label": "Jaune",
-      "active_zone_count": 17,
+      "max_level": "orange",
+      "max_level_label": "Orange",
+      "active_zone_count": 16,
       "hazards": [
         {
           "type": "thunderstormwarning",
           "label_fr": "thunderstormwarning",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 17,
-          "total_zone_count": 17
+          "level": "orange",
+          "level_label": "Orange",
+          "zone_count": 3,
+          "total_zone_count": 16
         }
       ]
     },
