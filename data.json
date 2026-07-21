@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T14:35:42.082Z",
+  "generated_at": "2026-07-21T16:25:07.923Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -57,8 +57,8 @@
           "label_fr": "Orages",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 10,
-          "total_zone_count": 10
+          "zone_count": 11,
+          "total_zone_count": 11
         },
         {
           "type": "coastalevent",
@@ -116,10 +116,27 @@
       "code": "DE",
       "name_fr": "Allemagne",
       "ok": true,
-      "max_level": "green",
-      "max_level_label": "Vert",
-      "active_zone_count": 0,
-      "hazards": []
+      "max_level": "yellow",
+      "max_level_label": "Jaune",
+      "active_zone_count": 30,
+      "hazards": [
+        {
+          "type": "gale-force gusts",
+          "label_fr": "gale-force gusts",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 17,
+          "total_zone_count": 17
+        },
+        {
+          "type": "wind gusts",
+          "label_fr": "wind gusts",
+          "level": "green",
+          "level_label": "Vert",
+          "zone_count": 30,
+          "total_zone_count": 30
+        }
+      ]
     },
     "PT": {
       "code": "PT",
@@ -134,19 +151,10 @@
       "code": "CH",
       "name_fr": "Suisse",
       "ok": true,
-      "max_level": "orange",
-      "max_level_label": "Orange",
-      "active_zone_count": 3,
-      "hazards": [
-        {
-          "type": "heavy thunderstorm",
-          "label_fr": "heavy thunderstorm",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 3,
-          "total_zone_count": 3
-        }
-      ]
+      "max_level": "green",
+      "max_level_label": "Vert",
+      "active_zone_count": 0,
+      "hazards": []
     },
     "AT": {
       "code": "AT",
@@ -154,15 +162,15 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 16,
+      "active_zone_count": 19,
       "hazards": [
         {
           "type": "thunderstormwarning",
           "label_fr": "thunderstormwarning",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 3,
-          "total_zone_count": 16
+          "zone_count": 1,
+          "total_zone_count": 19
         }
       ]
     },
