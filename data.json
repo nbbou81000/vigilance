@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T16:25:07.923Z",
+  "generated_at": "2026-07-21T17:54:18.448Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -49,7 +49,7 @@
           "label_fr": "Canicule",
           "level": "orange",
           "level_label": "Orange",
-          "zone_count": 44,
+          "zone_count": 45,
           "total_zone_count": 113
         },
         {
@@ -57,8 +57,8 @@
           "label_fr": "Orages",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 11,
-          "total_zone_count": 11
+          "zone_count": 15,
+          "total_zone_count": 15
         },
         {
           "type": "coastalevent",
@@ -160,17 +160,17 @@
       "code": "AT",
       "name_fr": "Autriche",
       "ok": true,
-      "max_level": "orange",
-      "max_level_label": "Orange",
-      "active_zone_count": 19,
+      "max_level": "yellow",
+      "max_level_label": "Jaune",
+      "active_zone_count": 21,
       "hazards": [
         {
           "type": "thunderstormwarning",
           "label_fr": "thunderstormwarning",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 1,
-          "total_zone_count": 19
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 21,
+          "total_zone_count": 21
         }
       ]
     },
