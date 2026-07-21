@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T04:48:32.098Z",
+  "generated_at": "2026-07-21T07:34:24.685Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -42,7 +42,7 @@
       "ok": true,
       "max_level": "orange",
       "max_level_label": "Orange",
-      "active_zone_count": 103,
+      "active_zone_count": 105,
       "hazards": [
         {
           "type": "high-temperature",
@@ -50,15 +50,15 @@
           "level": "orange",
           "level_label": "Orange",
           "zone_count": 39,
-          "total_zone_count": 102
+          "total_zone_count": 104
         },
         {
           "type": "thunderstorm",
           "label_fr": "Orages",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 4,
-          "total_zone_count": 4
+          "zone_count": 6,
+          "total_zone_count": 6
         },
         {
           "type": "coastalevent",
@@ -76,7 +76,7 @@
       "ok": true,
       "max_level": "red",
       "max_level_label": "Rouge",
-      "active_zone_count": 18,
+      "active_zone_count": 17,
       "hazards": [
         {
           "type": "red high-temperature",
@@ -99,8 +99,8 @@
           "label_fr": "yellow thunderstorm",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 14,
-          "total_zone_count": 14
+          "zone_count": 13,
+          "total_zone_count": 13
         },
         {
           "type": "yellow high-temperature",
@@ -134,17 +134,17 @@
       "code": "CH",
       "name_fr": "Suisse",
       "ok": true,
-      "max_level": "orange",
-      "max_level_label": "Orange",
-      "active_zone_count": 2,
+      "max_level": "red",
+      "max_level_label": "Rouge",
+      "active_zone_count": 1,
       "hazards": [
         {
-          "type": "heavy thunderstorm",
-          "label_fr": "heavy thunderstorm",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 2,
-          "total_zone_count": 2
+          "type": "violent thunderstorm",
+          "label_fr": "violent thunderstorm",
+          "level": "red",
+          "level_label": "Rouge",
+          "zone_count": 1,
+          "total_zone_count": 1
         }
       ]
     },
