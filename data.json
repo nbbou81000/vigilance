@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T16:56:49.020Z",
+  "generated_at": "2026-07-22T18:15:21.460Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -34,7 +34,7 @@
       "ok": true,
       "max_level": "red",
       "max_level_label": "Rouge",
-      "active_zone_count": 124,
+      "active_zone_count": 122,
       "hazards": [
         {
           "type": "high-temperature",
@@ -42,7 +42,7 @@
           "level": "red",
           "level_label": "Rouge",
           "zone_count": 4,
-          "total_zone_count": 117
+          "total_zone_count": 115
         },
         {
           "type": "thunderstorm",
@@ -102,7 +102,7 @@
       "ok": true,
       "max_level": "yellow",
       "max_level_label": "Jaune",
-      "active_zone_count": 65,
+      "active_zone_count": 64,
       "hazards": [
         {
           "type": "gale-force gusts",
@@ -111,6 +111,14 @@
           "level_label": "Jaune",
           "zone_count": 15,
           "total_zone_count": 15
+        },
+        {
+          "type": "heavy thunderstorms with gale- or storm-force gusts",
+          "label_fr": "heavy thunderstorms with gale- or storm-force gusts",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 1,
+          "total_zone_count": 1
         },
         {
           "type": "wind gusts",
@@ -125,8 +133,8 @@
           "label_fr": "thunderstorms, possibly with wind gusts",
           "level": "green",
           "level_label": "Vert",
-          "zone_count": 8,
-          "total_zone_count": 8
+          "zone_count": 5,
+          "total_zone_count": 5
         }
       ]
     },
