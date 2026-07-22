@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T23:32:21.751Z",
+  "generated_at": "2026-07-22T02:56:10.105Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -60,23 +60,15 @@
       "ok": true,
       "max_level": "red",
       "max_level_label": "Rouge",
-      "active_zone_count": 14,
+      "active_zone_count": 13,
       "hazards": [
         {
           "type": "red high-temperature",
           "label_fr": "red high-temperature",
           "level": "red",
           "level_label": "Rouge",
-          "zone_count": 5,
-          "total_zone_count": 5
-        },
-        {
-          "type": "orange thunderstorm",
-          "label_fr": "orange thunderstorm",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 3,
-          "total_zone_count": 3
+          "zone_count": 2,
+          "total_zone_count": 2
         },
         {
           "type": "yellow thunderstorm",
@@ -144,19 +136,10 @@
       "code": "AT",
       "name_fr": "Autriche",
       "ok": true,
-      "max_level": "yellow",
-      "max_level_label": "Jaune",
-      "active_zone_count": 4,
-      "hazards": [
-        {
-          "type": "thunderstormwarning",
-          "label_fr": "thunderstormwarning",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 4,
-          "total_zone_count": 4
-        }
-      ]
+      "max_level": "green",
+      "max_level_label": "Vert",
+      "active_zone_count": 0,
+      "hazards": []
     },
     "NL": {
       "code": "NL",
