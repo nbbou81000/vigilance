@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T08:35:41.903Z",
+  "generated_at": "2026-07-22T11:12:23.460Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -32,25 +32,41 @@
       "code": "ES",
       "name_fr": "Espagne",
       "ok": true,
-      "max_level": "orange",
-      "max_level_label": "Orange",
-      "active_zone_count": 111,
+      "max_level": "red",
+      "max_level_label": "Rouge",
+      "active_zone_count": 124,
       "hazards": [
         {
           "type": "high-temperature",
           "label_fr": "Canicule",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 50,
-          "total_zone_count": 109
+          "level": "red",
+          "level_label": "Rouge",
+          "zone_count": 4,
+          "total_zone_count": 117
         },
         {
           "type": "thunderstorm",
           "label_fr": "Orages",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 16,
-          "total_zone_count": 16
+          "zone_count": 22,
+          "total_zone_count": 22
+        },
+        {
+          "type": "wind",
+          "label_fr": "Vent",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 4,
+          "total_zone_count": 4
+        },
+        {
+          "type": "coastalevent",
+          "label_fr": "Événement côtier",
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 3,
+          "total_zone_count": 3
         }
       ]
     },
@@ -60,7 +76,7 @@
       "ok": true,
       "max_level": "red",
       "max_level_label": "Rouge",
-      "active_zone_count": 11,
+      "active_zone_count": 12,
       "hazards": [
         {
           "type": "red high-temperature",
@@ -75,16 +91,8 @@
           "label_fr": "yellow thunderstorm",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 8,
-          "total_zone_count": 8
-        },
-        {
-          "type": "yellow high-temperature",
-          "label_fr": "yellow high-temperature",
-          "level": "yellow",
-          "level_label": "Jaune",
-          "zone_count": 1,
-          "total_zone_count": 1
+          "zone_count": 10,
+          "total_zone_count": 10
         }
       ]
     },
