@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T18:47:30.267Z",
+  "generated_at": "2026-07-23T20:16:32.238Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -34,23 +34,23 @@
       "ok": true,
       "max_level": "red",
       "max_level_label": "Rouge",
-      "active_zone_count": 129,
+      "active_zone_count": 72,
       "hazards": [
         {
           "type": "high-temperature",
           "label_fr": "Canicule",
           "level": "red",
           "level_label": "Rouge",
-          "zone_count": 5,
-          "total_zone_count": 101
+          "zone_count": 1,
+          "total_zone_count": 48
         },
         {
           "type": "thunderstorm",
           "label_fr": "Orages",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 2,
-          "total_zone_count": 28
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 19,
+          "total_zone_count": 19
         },
         {
           "type": "rain",
@@ -65,16 +65,16 @@
           "label_fr": "Événement côtier",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 9,
-          "total_zone_count": 9
+          "zone_count": 5,
+          "total_zone_count": 5
         },
         {
           "type": "wind",
           "label_fr": "Vent",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 6,
-          "total_zone_count": 6
+          "zone_count": 5,
+          "total_zone_count": 5
         }
       ]
     },
@@ -126,8 +126,17 @@
       "ok": true,
       "max_level": "green",
       "max_level_label": "Vert",
-      "active_zone_count": 0,
-      "hazards": []
+      "active_zone_count": 3,
+      "hazards": [
+        {
+          "type": "thunderstorms, possibly with wind gusts",
+          "label_fr": "thunderstorms, possibly with wind gusts",
+          "level": "green",
+          "level_label": "Vert",
+          "zone_count": 3,
+          "total_zone_count": 3
+        }
+      ]
     },
     "PT": {
       "code": "PT",
@@ -153,15 +162,15 @@
       "ok": true,
       "max_level": "yellow",
       "max_level_label": "Jaune",
-      "active_zone_count": 8,
+      "active_zone_count": 1,
       "hazards": [
         {
           "type": "thunderstormwarning",
           "label_fr": "thunderstormwarning",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 8,
-          "total_zone_count": 8
+          "zone_count": 1,
+          "total_zone_count": 1
         }
       ]
     },
