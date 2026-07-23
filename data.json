@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T13:05:25.561Z",
+  "generated_at": "2026-07-23T15:32:27.324Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -7,15 +7,15 @@
       "ok": true,
       "max_level": "yellow",
       "max_level_label": "Jaune",
-      "active_zone_count": 20,
+      "active_zone_count": 24,
       "hazards": [
         {
           "type": "high-temperature",
           "label_fr": "Canicule",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 20,
-          "total_zone_count": 20
+          "zone_count": 24,
+          "total_zone_count": 24
         }
       ]
     },
@@ -126,15 +126,15 @@
       "ok": true,
       "max_level": "green",
       "max_level_label": "Vert",
-      "active_zone_count": 13,
+      "active_zone_count": 5,
       "hazards": [
         {
           "type": "thunderstorms, possibly with wind gusts",
           "label_fr": "thunderstorms, possibly with wind gusts",
           "level": "green",
           "level_label": "Vert",
-          "zone_count": 13,
-          "total_zone_count": 13
+          "zone_count": 5,
+          "total_zone_count": 5
         }
       ]
     },
@@ -160,17 +160,17 @@
       "code": "AT",
       "name_fr": "Autriche",
       "ok": true,
-      "max_level": "orange",
-      "max_level_label": "Orange",
-      "active_zone_count": 64,
+      "max_level": "yellow",
+      "max_level_label": "Jaune",
+      "active_zone_count": 65,
       "hazards": [
         {
           "type": "thunderstormwarning",
           "label_fr": "thunderstormwarning",
-          "level": "orange",
-          "level_label": "Orange",
-          "zone_count": 4,
-          "total_zone_count": 64
+          "level": "yellow",
+          "level_label": "Jaune",
+          "zone_count": 65,
+          "total_zone_count": 65
         }
       ]
     },
