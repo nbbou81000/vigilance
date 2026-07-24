@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T13:00:25.661Z",
+  "generated_at": "2026-07-24T15:13:29.882Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -7,15 +7,15 @@
       "ok": true,
       "max_level": "yellow",
       "max_level_label": "Jaune",
-      "active_zone_count": 43,
+      "active_zone_count": 46,
       "hazards": [
         {
           "type": "thunderstorm",
           "label_fr": "Orages",
           "level": "yellow",
           "level_label": "Jaune",
-          "zone_count": 43,
-          "total_zone_count": 43
+          "zone_count": 46,
+          "total_zone_count": 46
         },
         {
           "type": "high-temperature",
