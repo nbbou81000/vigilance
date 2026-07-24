@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T15:13:29.882Z",
+  "generated_at": "2026-07-24T17:06:38.845Z",
   "countries": {
     "FR": {
       "code": "FR",
@@ -50,7 +50,7 @@
       "ok": true,
       "max_level": "red",
       "max_level_label": "Rouge",
-      "active_zone_count": 94,
+      "active_zone_count": 96,
       "hazards": [
         {
           "type": "high-temperature",
@@ -66,7 +66,7 @@
           "level": "orange",
           "level_label": "Orange",
           "zone_count": 4,
-          "total_zone_count": 39
+          "total_zone_count": 41
         },
         {
           "type": "rain",
@@ -74,7 +74,7 @@
           "level": "orange",
           "level_label": "Orange",
           "zone_count": 2,
-          "total_zone_count": 35
+          "total_zone_count": 37
         },
         {
           "type": "rissagas",
